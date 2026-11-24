@@ -1,0 +1,7 @@
+services:
+  postgresql:
+    container_name: postgresql
+  tcg-service:
+    container_name: tcg-service
+  tcg-llm:
+    container_name: tcg-llm
